@@ -1,0 +1,623 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /PCIe_pkg/Coverage_Model_D1/TX_D_LTSSM_Trans_Cover 
+                                                        96.4%        100    Uncovered            
+    covered/total bins:                                    27         28                      
+    missing/total bins:                                     1         28                      
+    % Hit:                                              96.4%        100                      
+    Coverpoint TX_D_LTSSM_Trans_Cover::LTSSM_Trans_Cover 
+                                                        96.4%        100    Uncovered            
+        covered/total bins:                                27         28                      
+        missing/total bins:                                 1         28                      
+        % Hit:                                          96.4%        100                      
+ CLASS Coverage_Model_D1
+ Covergroup instance \/PCIe_pkg::Coverage_Model_D1::TX_D_LTSSM_Trans_Cover  
+                                                        96.4%        100    Uncovered            
+    covered/total bins:                                    27         28                      
+    missing/total bins:                                     1         28                      
+    % Hit:                                              96.4%        100                      
+    Coverpoint LTSSM_Trans_Cover                        96.4%        100    Uncovered            
+        covered/total bins:                                27         28                      
+        missing/total bins:                                 1         28                      
+        % Hit:                                          96.4%        100                      
+        bin Detect_Quiet_to_Detect_Active                  14          1    Covered              
+        bin Detect_Active_to_Polling_Active                14          1    Covered              
+        bin Polling_Active_to_Polling_Configuration 
+                                                           13          1    Covered              
+        bin Polling_Active_to_Detect_Quiet                  1          1    Covered              
+        bin Polling_Configuration_to_Config_Link_Width_Start 
+                                                           13          1    Covered              
+        bin Config_Link_Width_Start_to_Config_Link_Width_Accept 
+                                                           11          1    Covered              
+        bin Config_Link_Width_Start_to_Detect_Quiet 
+                                                            2          1    Covered              
+        bin Config_Link_Width_Accept_to_Config_Lanenum_Wait 
+                                                           11          1    Covered              
+        bin Config_Link_Width_Accept_to_Detect_Quiet 
+                                                            0          1    ZERO                 
+        bin Config_Lanenum_Wait_to_Config_Lanenum_Accept 
+                                                           10          1    Covered              
+        bin Config_Lanenum_Wait_to_Detect_Quiet             1          1    Covered              
+        bin Config_Lanenum_Accept_to_Config_Complete 
+                                                            9          1    Covered              
+        bin Config_Lanenum_Accept_to_Detect_Quiet           1          1    Covered              
+        bin Config_Complete_to_Config_Idle                  7          1    Covered              
+        bin Config_Complete_to_Detect_Quiet                 2          1    Covered              
+        bin Config_Idle_to_L0                               6          1    Covered              
+        bin Config_Idle_to_Detect_Quiet                     1          1    Covered              
+        bin L0_to_Recovery_RcvrLock                         6          1    Covered              
+        bin Recovery_RcvrLock_to_Recovery_RcvrCfg           7          1    Covered              
+        bin Recovery_Speed_to_Recovery_RcvrLock             3          1    Covered              
+        bin Phase1_EQ_to_Recovery_RcvrLock                  3          1    Covered              
+        bin Recovery_RcvrLock_to_Phase1_EQ                  3          1    Covered              
+        bin Recovery_RcvrLock_to_Detect_Quiet               1          1    Covered              
+        bin Recovery_RcvrCfg_to_Recovery_Speed              4          1    Covered              
+        bin Recovery_RcvrCfg_to_Recovery_Idle               2          1    Covered              
+        bin Recovery_RcvrCfg_to_Detect_Quiet                1          1    Covered              
+        bin Recovery_Idle_to_L0                             1          1    Covered              
+        bin Recovery_Idle_to_Detect_Quiet                   1          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_D1/TX_D_OS_Cover        100.0%        100    Covered              
+    covered/total bins:                                     9          9                      
+    missing/total bins:                                     0          9                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint TX_D_OS_Cover::OS_Types_Cover           100.0%        100    Covered              
+        covered/total bins:                                 9          9                      
+        missing/total bins:                                 0          9                      
+        % Hit:                                         100.0%        100                      
+        bin TS1_gen_1                                      73          1    Covered              
+        bin TS2_gen_1                                      33          1    Covered              
+        bin TS1_gen_5                                       7          1    Covered              
+        bin TS2_gen_5                                       2          1    Covered              
+        bin EIOS                                            4          1    Covered              
+        bin EIEOS                                           3          1    Covered              
+        bin SKP                                             2          1    Covered              
+        bin SDS                                             2          1    Covered              
+        bin IDLE                                            7          1    Covered              
+ CLASS Coverage_Model_D1
+ Covergroup instance \/PCIe_pkg::Coverage_Model_D1::TX_D_OS_Cover  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                     9          9                      
+    missing/total bins:                                     0          9                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint OS_Types_Cover                          100.0%        100    Covered              
+        covered/total bins:                                 9          9                      
+        missing/total bins:                                 0          9                      
+        % Hit:                                         100.0%        100                      
+        bin TS1_gen_1                                      73          1    Covered              
+        bin TS2_gen_1                                      33          1    Covered              
+        bin TS1_gen_5                                       7          1    Covered              
+        bin TS2_gen_5                                       2          1    Covered              
+        bin EIOS                                            4          1    Covered              
+        bin EIEOS                                           3          1    Covered              
+        bin SKP                                             2          1    Covered              
+        bin SDS                                             2          1    Covered              
+        bin IDLE                                            7          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_D1/RX_D_LTSSM_Trans_Cover 
+                                                        96.4%        100    Uncovered            
+    covered/total bins:                                    27         28                      
+    missing/total bins:                                     1         28                      
+    % Hit:                                              96.4%        100                      
+    Coverpoint RX_D_LTSSM_Trans_Cover::LTSSM_Trans_Cover 
+                                                        96.4%        100    Uncovered            
+        covered/total bins:                                27         28                      
+        missing/total bins:                                 1         28                      
+        % Hit:                                          96.4%        100                      
+ CLASS Coverage_Model_D1
+ Covergroup instance \/PCIe_pkg::Coverage_Model_D1::RX_D_LTSSM_Trans_Cover  
+                                                        96.4%        100    Uncovered            
+    covered/total bins:                                    27         28                      
+    missing/total bins:                                     1         28                      
+    % Hit:                                              96.4%        100                      
+    Coverpoint LTSSM_Trans_Cover                        96.4%        100    Uncovered            
+        covered/total bins:                                27         28                      
+        missing/total bins:                                 1         28                      
+        % Hit:                                          96.4%        100                      
+        bin Detect_Quiet_to_Detect_Active                  14          1    Covered              
+        bin Detect_Active_to_Polling_Active                14          1    Covered              
+        bin Polling_Active_to_Polling_Configuration 
+                                                           13          1    Covered              
+        bin Polling_Active_to_Detect_Quiet                  1          1    Covered              
+        bin Polling_Configuration_to_Config_Link_Width_Start 
+                                                           12          1    Covered              
+        bin Config_Link_Width_Start_to_Config_Link_Width_Accept 
+                                                           11          1    Covered              
+        bin Config_Link_Width_Start_to_Detect_Quiet 
+                                                            1          1    Covered              
+        bin Config_Link_Width_Accept_to_Config_Lanenum_Wait 
+                                                           11          1    Covered              
+        bin Config_Link_Width_Accept_to_Detect_Quiet 
+                                                            0          1    ZERO                 
+        bin Config_Lanenum_Wait_to_Config_Lanenum_Accept 
+                                                           10          1    Covered              
+        bin Config_Lanenum_Wait_to_Detect_Quiet             1          1    Covered              
+        bin Config_Lanenum_Accept_to_Config_Complete 
+                                                            9          1    Covered              
+        bin Config_Lanenum_Accept_to_Detect_Quiet           1          1    Covered              
+        bin Config_Complete_to_Config_Idle                  7          1    Covered              
+        bin Config_Complete_to_Detect_Quiet                 2          1    Covered              
+        bin Config_Idle_to_L0                               6          1    Covered              
+        bin Config_Idle_to_Detect_Quiet                     1          1    Covered              
+        bin L0_to_Recovery_RcvrLock                         6          1    Covered              
+        bin Recovery_RcvrLock_to_Recovery_RcvrCfg           7          1    Covered              
+        bin Recovery_Speed_to_Recovery_RcvrLock             4          1    Covered              
+        bin Phase1_EQ_to_Recovery_RcvrLock                  2          1    Covered              
+        bin Recovery_RcvrLock_to_Phase1_EQ                  4          1    Covered              
+        bin Recovery_RcvrLock_to_Detect_Quiet               1          1    Covered              
+        bin Recovery_RcvrCfg_to_Recovery_Speed              4          1    Covered              
+        bin Recovery_RcvrCfg_to_Recovery_Idle               2          1    Covered              
+        bin Recovery_RcvrCfg_to_Detect_Quiet                1          1    Covered              
+        bin Recovery_Idle_to_L0                             1          1    Covered              
+        bin Recovery_Idle_to_Detect_Quiet                   1          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_D1/RX_D_OS_Cover        100.0%        100    Covered              
+    covered/total bins:                                     9          9                      
+    missing/total bins:                                     0          9                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint RX_D_OS_Cover::OS_Types_Cover           100.0%        100    Covered              
+        covered/total bins:                                 9          9                      
+        missing/total bins:                                 0          9                      
+        % Hit:                                         100.0%        100                      
+        bin TS1_gen_1                                      65          1    Covered              
+        bin TS2_gen_1                                      23          1    Covered              
+        bin TS1_gen_5                                       8          1    Covered              
+        bin TS2_gen_5                                       2          1    Covered              
+        bin EIOS                                            4          1    Covered              
+        bin EIEOS                                           4          1    Covered              
+        bin SKP                                             1          1    Covered              
+        bin SDS                                             1          1    Covered              
+        bin IDLE                                            8          1    Covered              
+ CLASS Coverage_Model_D1
+ Covergroup instance \/PCIe_pkg::Coverage_Model_D1::RX_D_OS_Cover  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                     9          9                      
+    missing/total bins:                                     0          9                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint OS_Types_Cover                          100.0%        100    Covered              
+        covered/total bins:                                 9          9                      
+        missing/total bins:                                 0          9                      
+        % Hit:                                         100.0%        100                      
+        bin TS1_gen_1                                      65          1    Covered              
+        bin TS2_gen_1                                      23          1    Covered              
+        bin TS1_gen_5                                       8          1    Covered              
+        bin TS2_gen_5                                       2          1    Covered              
+        bin EIOS                                            4          1    Covered              
+        bin EIEOS                                           4          1    Covered              
+        bin SKP                                             1          1    Covered              
+        bin SDS                                             1          1    Covered              
+        bin IDLE                                            8          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_U1/TX_U_LTSSM_Trans_Cover 
+                                                        96.1%        100    Uncovered            
+    covered/total bins:                                    25         26                      
+    missing/total bins:                                     1         26                      
+    % Hit:                                              96.1%        100                      
+    Coverpoint TX_U_LTSSM_Trans_Cover::LTSSM_Trans_Cover 
+                                                        96.1%        100    Uncovered            
+        covered/total bins:                                25         26                      
+        missing/total bins:                                 1         26                      
+        % Hit:                                          96.1%        100                      
+ CLASS Coverage_Model_U1
+ Covergroup instance \/PCIe_pkg::Coverage_Model_U1::TX_U_LTSSM_Trans_Cover  
+                                                        96.1%        100    Uncovered            
+    covered/total bins:                                    25         26                      
+    missing/total bins:                                     1         26                      
+    % Hit:                                              96.1%        100                      
+    Coverpoint LTSSM_Trans_Cover                        96.1%        100    Uncovered            
+        covered/total bins:                                25         26                      
+        missing/total bins:                                 1         26                      
+        % Hit:                                          96.1%        100                      
+        bin Detect_Quiet_to_Detect_Active                  14          1    Covered              
+        bin Detect_Active_to_Polling_Active                14          1    Covered              
+        bin Polling_Active_to_Polling_Configuration 
+                                                           13          1    Covered              
+        bin Polling_Active_to_Detect_Quiet                  1          1    Covered              
+        bin Polling_Configuration_to_Config_Link_Width_Start 
+                                                           13          1    Covered              
+        bin Config_Link_Width_Start_to_Config_Link_Width_Accept 
+                                                           11          1    Covered              
+        bin Config_Link_Width_Start_to_Detect_Quiet 
+                                                            2          1    Covered              
+        bin Config_Lanenum_Wait_to_Config_Lanenum_Accept 
+                                                            8          1    Covered              
+        bin Config_Lanenum_Wait_to_Detect_Quiet             2          1    Covered              
+        bin Config_Lanenum_Accept_to_Config_Complete 
+                                                            8          1    Covered              
+        bin Config_Lanenum_Accept_to_Detect_Quiet           0          1    ZERO                 
+        bin Config_Complete_to_Config_Idle                  7          1    Covered              
+        bin Config_Complete_to_Detect_Quiet                 1          1    Covered              
+        bin Config_Idle_to_L0                               6          1    Covered              
+        bin Config_Idle_to_Detect_Quiet                     1          1    Covered              
+        bin L0_to_Recovery_RcvrLock                         6          1    Covered              
+        bin Recovery_RcvrLock_to_Recovery_RcvrCfg           7          1    Covered              
+        bin Recovery_Speed_to_Recovery_RcvrLock             3          1    Covered              
+        bin Phase1_EQ_to_Recovery_RcvrLock                  2          1    Covered              
+        bin Recovery_RcvrLock_to_Phase0_EQ                  3          1    Covered              
+        bin Recovery_RcvrLock_to_Detect_Quiet               1          1    Covered              
+        bin Recovery_RcvrCfg_to_Recovery_Speed              4          1    Covered              
+        bin Recovery_RcvrCfg_to_Recovery_Idle               2          1    Covered              
+        bin Recovery_RcvrCfg_to_Detect_Quiet                1          1    Covered              
+        bin Recovery_Idle_to_L0                             1          1    Covered              
+        bin Recovery_Idle_to_Detect_Quiet                   1          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_U1/TX_U_OS_Cover        100.0%        100    Covered              
+    covered/total bins:                                     9          9                      
+    missing/total bins:                                     0          9                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint TX_U_OS_Cover::OS_Types_Cover           100.0%        100    Covered              
+        covered/total bins:                                 9          9                      
+        missing/total bins:                                 0          9                      
+        % Hit:                                         100.0%        100                      
+        bin TS1_gen_1                                      72          1    Covered              
+        bin TS2_gen_1                                      24          1    Covered              
+        bin TS1_gen_5                                      15          1    Covered              
+        bin TS2_gen_5                                       2          1    Covered              
+        bin EIOS                                            4          1    Covered              
+        bin EIEOS                                           3          1    Covered              
+        bin SKP                                             2          1    Covered              
+        bin SDS                                             2          1    Covered              
+        bin IDLE                                            8          1    Covered              
+ CLASS Coverage_Model_U1
+ Covergroup instance \/PCIe_pkg::Coverage_Model_U1::TX_U_OS_Cover  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                     9          9                      
+    missing/total bins:                                     0          9                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint OS_Types_Cover                          100.0%        100    Covered              
+        covered/total bins:                                 9          9                      
+        missing/total bins:                                 0          9                      
+        % Hit:                                         100.0%        100                      
+        bin TS1_gen_1                                      72          1    Covered              
+        bin TS2_gen_1                                      24          1    Covered              
+        bin TS1_gen_5                                      15          1    Covered              
+        bin TS2_gen_5                                       2          1    Covered              
+        bin EIOS                                            4          1    Covered              
+        bin EIEOS                                           3          1    Covered              
+        bin SKP                                             2          1    Covered              
+        bin SDS                                             2          1    Covered              
+        bin IDLE                                            8          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_U1/RX_U_LTSSM_Trans_Cover 
+                                                        96.4%        100    Uncovered            
+    covered/total bins:                                    27         28                      
+    missing/total bins:                                     1         28                      
+    % Hit:                                              96.4%        100                      
+    Coverpoint RX_U_LTSSM_Trans_Cover::LTSSM_Trans_Cover 
+                                                        96.4%        100    Uncovered            
+        covered/total bins:                                27         28                      
+        missing/total bins:                                 1         28                      
+        % Hit:                                          96.4%        100                      
+ CLASS Coverage_Model_U1
+ Covergroup instance \/PCIe_pkg::Coverage_Model_U1::RX_U_LTSSM_Trans_Cover  
+                                                        96.4%        100    Uncovered            
+    covered/total bins:                                    27         28                      
+    missing/total bins:                                     1         28                      
+    % Hit:                                              96.4%        100                      
+    Coverpoint LTSSM_Trans_Cover                        96.4%        100    Uncovered            
+        covered/total bins:                                27         28                      
+        missing/total bins:                                 1         28                      
+        % Hit:                                          96.4%        100                      
+        bin Detect_Quiet_to_Detect_Active                  14          1    Covered              
+        bin Detect_Active_to_Polling_Active                14          1    Covered              
+        bin Polling_Active_to_Polling_Configuration 
+                                                           13          1    Covered              
+        bin Polling_Active_to_Detect_Quiet                  1          1    Covered              
+        bin Polling_Configuration_to_Config_Link_Width_Start 
+                                                           12          1    Covered              
+        bin Config_Link_Width_Start_to_Config_Link_Width_Accept 
+                                                           11          1    Covered              
+        bin Config_Link_Width_Start_to_Detect_Quiet 
+                                                            1          1    Covered              
+        bin Config_Link_Width_Accept_to_Config_Lanenum_Wait 
+                                                           10          1    Covered              
+        bin Config_Link_Width_Accept_to_Detect_Quiet 
+                                                            1          1    Covered              
+        bin Config_Lanenum_Wait_to_Config_Lanenum_Accept 
+                                                            8          1    Covered              
+        bin Config_Lanenum_Wait_to_Detect_Quiet             2          1    Covered              
+        bin Config_Lanenum_Accept_to_Config_Complete 
+                                                            8          1    Covered              
+        bin Config_Lanenum_Accept_to_Detect_Quiet           0          1    ZERO                 
+        bin Config_Complete_to_Config_Idle                  7          1    Covered              
+        bin Config_Complete_to_Detect_Quiet                 1          1    Covered              
+        bin Config_Idle_to_L0                               6          1    Covered              
+        bin Config_Idle_to_Detect_Quiet                     1          1    Covered              
+        bin L0_to_Recovery_RcvrLock                         6          1    Covered              
+        bin Recovery_RcvrLock_to_Recovery_RcvrCfg           7          1    Covered              
+        bin Recovery_Speed_to_Recovery_RcvrLock             4          1    Covered              
+        bin Phase1_EQ_to_Recovery_RcvrLock                  2          1    Covered              
+        bin Recovery_RcvrLock_to_Phase0_EQ                  4          1    Covered              
+        bin Recovery_RcvrLock_to_Detect_Quiet               1          1    Covered              
+        bin Recovery_RcvrCfg_to_Recovery_Speed              4          1    Covered              
+        bin Recovery_RcvrCfg_to_Recovery_Idle               2          1    Covered              
+        bin Recovery_RcvrCfg_to_Detect_Quiet                1          1    Covered              
+        bin Recovery_Idle_to_L0                             1          1    Covered              
+        bin Recovery_Idle_to_Detect_Quiet                   1          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_U1/RX_U_OS_Cover        100.0%        100    Covered              
+    covered/total bins:                                     9          9                      
+    missing/total bins:                                     0          9                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint RX_U_OS_Cover::OS_Types_Cover           100.0%        100    Covered              
+        covered/total bins:                                 9          9                      
+        missing/total bins:                                 0          9                      
+        % Hit:                                         100.0%        100                      
+        bin TS1_gen_1                                      53          1    Covered              
+        bin TS2_gen_1                                      31          1    Covered              
+        bin TS1_gen_5                                      10          1    Covered              
+        bin TS2_gen_5                                       2          1    Covered              
+        bin EIOS                                            4          1    Covered              
+        bin EIEOS                                           4          1    Covered              
+        bin SKP                                             1          1    Covered              
+        bin SDS                                             1          1    Covered              
+        bin IDLE                                            8          1    Covered              
+ CLASS Coverage_Model_U1
+ Covergroup instance \/PCIe_pkg::Coverage_Model_U1::RX_U_OS_Cover  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                     9          9                      
+    missing/total bins:                                     0          9                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint OS_Types_Cover                          100.0%        100    Covered              
+        covered/total bins:                                 9          9                      
+        missing/total bins:                                 0          9                      
+        % Hit:                                         100.0%        100                      
+        bin TS1_gen_1                                      53          1    Covered              
+        bin TS2_gen_1                                      31          1    Covered              
+        bin TS1_gen_5                                      10          1    Covered              
+        bin TS2_gen_5                                       2          1    Covered              
+        bin EIOS                                            4          1    Covered              
+        bin EIEOS                                           4          1    Covered              
+        bin SKP                                             1          1    Covered              
+        bin SDS                                             1          1    Covered              
+        bin IDLE                                            8          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_D2/TX_Data_Exchange_D_Cover 
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    15         15                      
+    missing/total bins:                                     0         15                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint TX_Data_Exchange_D_Cover::Packet_Type_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint TX_Data_Exchange_D_Cover::Packet_backtoback_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint TX_Data_Exchange_D_Cover::TLP_Size_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint TX_Data_Exchange_D_Cover::B2B_Different_Packets_Sizes 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                         100.0%        100                      
+ CLASS Coverage_Model_D2
+ Covergroup instance \/PCIe_pkg::Coverage_Model_D2::TX_Data_Exchange_D_Cover  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    15         15                      
+    missing/total bins:                                     0         15                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint Packet_Type_p                           100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+        bin TLP_Packet                                   5382          1    Covered              
+        bin DLLP_Packet                                  8802          1    Covered              
+    Coverpoint Packet_backtoback_p                     100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+        bin B2B_TLP                                      3283          1    Covered              
+        bin B2B_DLLP                                     6703          1    Covered              
+        bin TLP_DLLP                                     2099          1    Covered              
+        bin DLLP_TLP                                     2098          1    Covered              
+    Coverpoint TLP_Size_p                              100.0%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                         100.0%        100                      
+        illegal_bin TLP_less_than_16_bytes                  0               ZERO                 
+        bin TLP_MIN_SIZE                                 2807          1    Covered              
+        bin TLP_MAX_SIZE                                  417          1    Covered              
+        bin TLP_other_sizes                              2158          1    Covered              
+    Coverpoint B2B_Different_Packets_Sizes             100.0%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                         100.0%        100                      
+        bin B2B_TLP_MAX_SIZE                              100          1    Covered              
+        bin B2B_TLP_MIN_SIZE                             1466          1    Covered              
+        bin TLP_DLLP_MAX_SIZE                             303          1    Covered              
+        bin TLP_DLLP_MIN_SIZE                             733          1    Covered              
+        bin DLLP_TLP_MAX_SIZE                             302          1    Covered              
+        bin DLLP_TLP_MIN_SIZE                             749          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_D2/RX_Data_Exchange_D_Cover 
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    15         15                      
+    missing/total bins:                                     0         15                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint RX_Data_Exchange_D_Cover::Packet_Type_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint RX_Data_Exchange_D_Cover::Packet_backtoback_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint RX_Data_Exchange_D_Cover::TLP_Size_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint RX_Data_Exchange_D_Cover::B2B_Different_Packets_Sizes 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                         100.0%        100                      
+ CLASS Coverage_Model_D2
+ Covergroup instance \/PCIe_pkg::Coverage_Model_D2::RX_Data_Exchange_D_Cover  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    15         15                      
+    missing/total bins:                                     0         15                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint Packet_Type_p                           100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+        bin TLP_Packet                                   5507          1    Covered              
+        bin DLLP_Packet                                  8652          1    Covered              
+    Coverpoint Packet_backtoback_p                     100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+        bin B2B_TLP                                      3407          1    Covered              
+        bin B2B_DLLP                                     6552          1    Covered              
+        bin TLP_DLLP                                     2100          1    Covered              
+        bin DLLP_TLP                                     2099          1    Covered              
+    Coverpoint TLP_Size_p                              100.0%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                         100.0%        100                      
+        illegal_bin TLP_less_than_16_bytes                  0               ZERO                 
+        bin TLP_MIN_SIZE                                 2910          1    Covered              
+        bin TLP_MAX_SIZE                                  414          1    Covered              
+        bin TLP_other_sizes                              2183          1    Covered              
+    Coverpoint B2B_Different_Packets_Sizes             100.0%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                         100.0%        100                      
+        bin B2B_TLP_MAX_SIZE                               97          1    Covered              
+        bin B2B_TLP_MIN_SIZE                             1571          1    Covered              
+        bin TLP_DLLP_MAX_SIZE                             307          1    Covered              
+        bin TLP_DLLP_MIN_SIZE                             719          1    Covered              
+        bin DLLP_TLP_MAX_SIZE                             306          1    Covered              
+        bin DLLP_TLP_MIN_SIZE                             748          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_U2/TX_Data_Exchange_U_Cover 
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    15         15                      
+    missing/total bins:                                     0         15                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint TX_Data_Exchange_U_Cover::Packet_Type_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint TX_Data_Exchange_U_Cover::Packet_backtoback_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint TX_Data_Exchange_U_Cover::TLP_Size_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint TX_Data_Exchange_U_Cover::B2B_Different_Packets_Sizes 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                         100.0%        100                      
+ CLASS Coverage_Model_U2
+ Covergroup instance \/PCIe_pkg::Coverage_Model_U2::TX_Data_Exchange_U_Cover  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    15         15                      
+    missing/total bins:                                     0         15                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint Packet_Type_p                           100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+        bin TLP_Packet                                   5509          1    Covered              
+        bin DLLP_Packet                                  8662          1    Covered              
+    Coverpoint Packet_backtoback_p                     100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+        bin B2B_TLP                                      3407          1    Covered              
+        bin B2B_DLLP                                     6560          1    Covered              
+        bin TLP_DLLP                                     2102          1    Covered              
+        bin DLLP_TLP                                     2101          1    Covered              
+    Coverpoint TLP_Size_p                              100.0%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                         100.0%        100                      
+        illegal_bin TLP_less_than_16_bytes                  0               ZERO                 
+        bin TLP_MIN_SIZE                                 2910          1    Covered              
+        bin TLP_MAX_SIZE                                  414          1    Covered              
+        bin TLP_other_sizes                              2185          1    Covered              
+    Coverpoint B2B_Different_Packets_Sizes             100.0%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                         100.0%        100                      
+        bin B2B_TLP_MAX_SIZE                               97          1    Covered              
+        bin B2B_TLP_MIN_SIZE                             1571          1    Covered              
+        bin TLP_DLLP_MAX_SIZE                             307          1    Covered              
+        bin TLP_DLLP_MIN_SIZE                             719          1    Covered              
+        bin DLLP_TLP_MAX_SIZE                             306          1    Covered              
+        bin DLLP_TLP_MIN_SIZE                             748          1    Covered              
+ TYPE /PCIe_pkg/Coverage_Model_U2/RX_Data_Exchange_U_Cover 
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    15         15                      
+    missing/total bins:                                     0         15                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint RX_Data_Exchange_U_Cover::Packet_Type_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint RX_Data_Exchange_U_Cover::Packet_backtoback_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint RX_Data_Exchange_U_Cover::TLP_Size_p 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint RX_Data_Exchange_U_Cover::B2B_Different_Packets_Sizes 
+                                                       100.0%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                         100.0%        100                      
+ CLASS Coverage_Model_U2
+ Covergroup instance \/PCIe_pkg::Coverage_Model_U2::RX_Data_Exchange_U_Cover  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    15         15                      
+    missing/total bins:                                     0         15                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint Packet_Type_p                           100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+        bin TLP_Packet                                   5382          1    Covered              
+        bin DLLP_Packet                                  8802          1    Covered              
+    Coverpoint Packet_backtoback_p                     100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+        bin B2B_TLP                                      3283          1    Covered              
+        bin B2B_DLLP                                     6703          1    Covered              
+        bin TLP_DLLP                                     2099          1    Covered              
+        bin DLLP_TLP                                     2098          1    Covered              
+    Coverpoint TLP_Size_p                              100.0%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                         100.0%        100                      
+        illegal_bin TLP_less_than_16_bytes                  0               ZERO                 
+        bin TLP_MIN_SIZE                                 2807          1    Covered              
+        bin TLP_MAX_SIZE                                  417          1    Covered              
+        bin TLP_other_sizes                              2158          1    Covered              
+    Coverpoint B2B_Different_Packets_Sizes             100.0%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                         100.0%        100                      
+        bin B2B_TLP_MAX_SIZE                              100          1    Covered              
+        bin B2B_TLP_MIN_SIZE                             1466          1    Covered              
+        bin TLP_DLLP_MAX_SIZE                             303          1    Covered              
+        bin TLP_DLLP_MIN_SIZE                             733          1    Covered              
+        bin DLLP_TLP_MAX_SIZE                             302          1    Covered              
+        bin DLLP_TLP_MIN_SIZE                             749          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 98.7%  COVERGROUP TYPES: 12
