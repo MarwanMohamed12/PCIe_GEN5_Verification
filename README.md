@@ -16,7 +16,8 @@ The verification was initially performed on a 16-lane configuration with a 32-bi
 To expand the test coverage and realism, we also integrated two instances of the DUT in the environment — one acting as the Upstream Port and the other as the Downstream Port. This dual-device setup allows us to verify both roles of the PCIe link simultaneously, ensuring bidirectional correctness and complete link bring-up behavior between two fully functional endpoints.
 
 # 2-Testbench Architectures
-<img width="1873" height="228" alt="image" src="https://github.com/user-attachments/assets/048e100d-abef-4900-8526-9c9a01e8f585" />
+<img width="2238" height="1197" alt="image" src="https://github.com/user-attachments/assets/47b996b9-cf1d-4188-b3a9-71d4de6b841d" />
+
 
 # 2.1 UVM Components 
 
